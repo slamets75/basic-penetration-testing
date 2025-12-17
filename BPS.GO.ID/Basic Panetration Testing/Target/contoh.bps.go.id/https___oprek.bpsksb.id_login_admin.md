@@ -1,6 +1,6 @@
 ---
 title: https://oprek.bpsksb.id/login_admin
-updated: 2025-12-10 07:32:22Z
+updated: 2025-12-17 05:09:49Z
 created: 2025-12-10 07:26:24Z
 latitude: -6.20239360
 longitude: 106.65270990
